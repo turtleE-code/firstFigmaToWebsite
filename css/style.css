@@ -9,6 +9,8 @@ body {
     "Hiragino Sans",
     Meiryo,
     sans-serif;
+    font-style: normal;
+    line-height: normal;
     /* color: #fff; */
 }
 a {
@@ -19,11 +21,12 @@ a {
     margin: 0 auto;
 }
 
-img {
+.office-pic img {
     width: 1366px;
     height: 603px;
     margin: auto;
     display: block;
+    /* justify-content: center; */
 }
 
 .page-header {
@@ -42,9 +45,10 @@ img {
 }
 .header-contents .logo a {
     font-size: 28px;
-    font-style: normal;
     font-weight: 700;
     line-height: normal;
+    display: block;
+    padding-top: 24px;
 }
 .main-nav {
     display: flex;
@@ -52,4 +56,87 @@ img {
 }
 .main-nav li {
     margin-left: 20px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 29px;
+}
+
+.big-li p {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    color: #555;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.main-topic {
+    display: flex;
+    justify-content: center;
+    margin: 42px auto;
+    width: 1000px;
+    height: 447px;
+    flex-shrink: 0;
+}
+.sample-pic {
+    width: 50%;
+    /* margin-left: 203px; */
+    /* background-color: #EFA358; */
+}
+.description {
+    width: 50%;
+    margin-left: 60px;
+}
+.description h1 {
+    color: #555;
+    /* font-family: Arial; */
+    font-size: 32px;
+    /* font-style: normal; */
+    font-weight: 700;
+    /* line-height: normal; */
+    margin-bottom: 30px;
+}
+.description p {
+    color: #555;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    margin-bottom: 30px;
+    text-align: justify;
+}
+.description .more {
+    border-radius: 10px;
+    background: #EFA358;
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    width: 196px;
+    height: 46px;
+    position: relative;
+    /* text-align: center; */
+    /* margin: ; */
+}
+.more span {
+    position: absolute;
+    color: #FFF;
+    /* font-family: Arial; */
+    font-size: 16px;
+    /* font-style: normal; */
+    font-weight: 700;
+    /* line-height: normal; */
+    /* width: 82px;
+    height: 18px; */
+    /* display: block;
+    margin: 0 auto; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+footer {
+    background: #EFA358;
+    width: 1366px;
+    height: 100px;
+    flex-shrink: 0;
 }
