@@ -11,7 +11,6 @@ body {
     sans-serif;
     font-style: normal;
     line-height: normal;
-    /* color: #fff; */
 }
 a {
     text-decoration: none;
@@ -26,7 +25,6 @@ a {
     height: 603px;
     margin: auto;
     display: block;
-    /* justify-content: center; */
 }
 
 .page-header {
@@ -62,7 +60,7 @@ a {
     padding-top: 29px;
 }
 
-.big-li p {
+.big-li {
     display: flex;
     justify-content: center;
     margin-top: 40px;
@@ -81,20 +79,15 @@ a {
 }
 .sample-pic {
     width: 50%;
-    /* margin-left: 203px; */
-    /* background-color: #EFA358; */
 }
 .description {
     width: 50%;
     margin-left: 60px;
 }
 .description h1 {
-    color: #555;
-    /* font-family: Arial; */
+    color: #555;  
     font-size: 32px;
-    /* font-style: normal; */
     font-weight: 700;
-    /* line-height: normal; */
     margin-bottom: 30px;
 }
 .description p {
@@ -107,31 +100,18 @@ a {
     margin-bottom: 30px;
     text-align: justify;
 }
-.description .more {
+.buttun {
+    display: block;
+    margin-top: 30px;
     border-radius: 10px;
     background: #EFA358;
     box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
     width: 196px;
     height: 46px;
-    position: relative;
-    /* text-align: center; */
-    /* margin: ; */
-}
-.more span {
-    position: absolute;
-    color: #FFF;
-    /* font-family: Arial; */
+    padding: 14px 57px;
     font-size: 16px;
-    /* font-style: normal; */
+    color: #fff;
     font-weight: 700;
-    /* line-height: normal; */
-    /* width: 82px;
-    height: 18px; */
-    /* display: block;
-    margin: 0 auto; */
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
 }
 
 footer {
@@ -139,4 +119,18 @@ footer {
     width: 1366px;
     height: 100px;
     flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    padding: 20px 0 18px 0;
+}
+footer h1 a {
+    color: #FFF;
+font-size: 24px;
+font-weight: 700;
+display: block;
+margin-bottom: 20px;
+}
+footer p {
+font-size: 12px;
+font-weight: 400;
 }
